@@ -2,7 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
-    background-color:#2E8BC0;
+    /* background-color:#2E8BC0; */
     font-family: 'sans-serif';
 }
 .login{
@@ -41,7 +41,7 @@ label{
     border: none;
     border-radius: 3px;
     padding-left: 8px;
-		style="align-self: center;"
+	align-self: center;
 }
 #Pass{
     width: 300px;
@@ -68,7 +68,7 @@ span{
     color: white;
     font-size: 17px;
 }
-<style>
+
 .button {
   padding: 15px 25px;
   font-size: 24px;
@@ -87,3 +87,63 @@ span{
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+/* CSS FOR ACCOUNTS PAYABLE */
+.body-accounts-payable {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.welcome-accounts-payable{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    margin: 0px;
+}
+
+.welcome-accounts-payable h1{
+    margin: 50px 0px;
+}
+
+.accounts-to-be-paid{
+    margin: 50px 0px;
+}
+
+.payable{
+    text-align: center;
+    margin: 50px 0px;
+    background-color: #B1D4E0;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid #2E8BC0;
+    padding: 20px;
+    width: 100%;
+    height: 150px;
+    border-style: outset;
+}
+
+.current-balance{
+    font-size: larger;
+    text-align: center;
+    margin: 50px 0px;
+    background-color: #B1D4E0;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid #2E8BC0;
+    padding: 20px;
+    width: 100%;
+    height: 150px;
+    border-style: outset;
+}
+
+.button-add-account{
+    /* position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 5%; */
+}
+
+/* END OF CSS FOR ACCOUNTS PAYABLE */
