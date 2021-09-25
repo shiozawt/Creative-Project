@@ -167,3 +167,31 @@ span {
   padding-left: 800px;
 }
 /* END OF CSS FOR ACCOUNTS PAYABLE */
+
+/* ACCOUNTS RECEIVABLE STYLE BEGIN*/
+
+.AR-Container {
+  background-color: #B1D4E0;
+  border: 3px orange solid;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+
+.AR-Container > div {
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: cadetblue;
+  color: white;
+  border: red solid 3px;
+
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50%;
+  height: 100px;
+}
+
+/* ACCOUNTS RECEIVABLE STYLE END*/
