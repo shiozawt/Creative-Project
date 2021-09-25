@@ -51,6 +51,17 @@ label{
     padding-left: 8px;
 
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 #log{
     width: 300px;
     height: 30px;
