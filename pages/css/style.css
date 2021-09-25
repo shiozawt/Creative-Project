@@ -1,28 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 body {
-  margin: 0;
-  padding: 0;
+
   background-color: #2E8BC0;
   font-family: 'Poppins', sans-serif;
 }
 
 .login {
-  width: 382px;
+  width: 500px;
   overflow: hidden;
   margin: auto;
-  margin: 20 0 0 450px;
   padding: 80px;
   background: #145DA0;
   border-radius: 15px;
+
 }
 
 #service {
-  width: 400px;
+  width: 300px; /*Changed width so everything would center*/
   height: 100px;
   border: 5px;
   border-radius: 17px;
-  padding-left: 7px;
+  padding-left: 0px;
   background-color: #B1D4E0;
   color: #0C2D48;
   font-weight: bold;
@@ -87,20 +86,18 @@ span {
 }
 
 .button {
-  padding: 15px 25px;
-  font-size: 24px;
+ /*removed padding*/
+  font-size: 20px; /*changed font size so Log In text woudl fit inside the button*/
   text-align: center;
-  cursor: pointer;
-  outline: none;
   color: #fff;
   background-color: #04AA6D;
   border: none;
-  border-radius: 15px;
+  border-radius: 20px;
   box-shadow: 0 9px #999;
 }
 
 .button:hover {
-  background-color: #3e8e41
+  background-color: #3e8e41;
 }
 
 .button:active {
@@ -157,7 +154,8 @@ span {
   height: 150px;
   border-style: outset;
 }
-
+.container {
+}
 .button-add-account {
   /* position: fixed;
     left: 50%;
@@ -165,5 +163,7 @@ span {
     transform: translate(-50%, -50%);
     margin: 5%; */
 }
-
+.center{
+  padding-left: 800px;
+}
 /* END OF CSS FOR ACCOUNTS PAYABLE */
